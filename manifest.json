@@ -1,0 +1,22 @@
+{
+  "name": "Taobao",
+  "description": "Build an Extension!",
+  "version": "0.1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://show.1688.com/*"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "/images/vector.png"
+    }
+  }
+}
