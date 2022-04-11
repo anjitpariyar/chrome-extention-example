@@ -1,3 +1,25 @@
 body {
-  /* background-color: #000 !important; */
+  background-color: #000 !important;
+}
+
+.huopin-offer-box a {
+  position: relative;
+}
+
+.append-button {
+  display: inline-block;
+  padding-top: 2px;
+  width: 152px;
+  height: 32px;
+  font: 14px/26px PingFangSC-Regular;
+  text-align: center;
+  color: #fff;
+  border-radius: 4px;
+  letter-spacing: 0;
+  text-decoration: none;
+  border: 1px solid #ff4000;
+  background-color: #ff4000;
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
